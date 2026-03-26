@@ -4863,6 +4863,333 @@ exports[`TSGoLint E2E Snapshot Tests > should still report lint rule diagnostics
 
 exports[`TSGoLint E2E Snapshot Tests > should work correctly with nested module namespaces and parent module searches (\`ValueMatchesSomeSpecifier\`) (issue #135) 1`] = `[]`;
 
+exports[`TSGoLint E2E Snapshot Tests > supports passing no-object-comparison rule config 1`] = `
+[
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 603,
+      "pos": 588,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 638,
+      "pos": 622,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 671,
+      "pos": 656,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 706,
+      "pos": 690,
+    },
+    "rule": "no-object-comparison",
+  },
+]
+`;
+
+exports[`TSGoLint E2E Snapshot Tests > supports passing no-object-comparison rule config 2`] = `
+[
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 603,
+      "pos": 588,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 638,
+      "pos": 622,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 671,
+      "pos": 656,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 706,
+      "pos": 690,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 740,
+      "pos": 724,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 781,
+      "pos": 764,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 815,
+      "pos": 799,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 856,
+      "pos": 839,
+    },
+    "rule": "no-object-comparison",
+  },
+]
+`;
+
+exports[`TSGoLint E2E Snapshot Tests > supports passing no-object-comparison rule config 3`] = `
+[
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 603,
+      "pos": 588,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 638,
+      "pos": 622,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 671,
+      "pos": 656,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 706,
+      "pos": 690,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 989,
+      "pos": 964,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1039,
+      "pos": 1013,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1087,
+      "pos": 1062,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1137,
+      "pos": 1111,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1186,
+      "pos": 1160,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1242,
+      "pos": 1215,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1291,
+      "pos": 1265,
+    },
+    "rule": "no-object-comparison",
+  },
+  {
+    "file_path": "fixtures/basic/rules/no-object-comparison/index.ts",
+    "kind": 0,
+    "message": {
+      "description": "Do not compare objects using this operator.",
+      "id": "objectComparison",
+    },
+    "range": {
+      "end": 1347,
+      "pos": 1320,
+    },
+    "rule": "no-object-comparison",
+  },
+]
+`;
+
 exports[`TSGoLint E2E Snapshot Tests > supports passing rule config 1`] = `
 [
   {
